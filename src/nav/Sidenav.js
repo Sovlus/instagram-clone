@@ -16,27 +16,27 @@ function Sidenav() {
         </button>
 
         <button classname='kafelek'>
-          <span>Home</span>
+          <span>Search</span>
         </button>
 
         <button classname='kafelek'>
-          <span>Home</span>
+          <span>Explore</span>
         </button>
 
         <button classname='kafelek'>
-          <span>Home</span>
+          <span>Reels</span>
         </button>
 
         <button classname='kafelek'>
-          <span>Home</span>
+          <span>Messages</span>
         </button>
 
         <button classname='kafelek'>
-          <span>Home</span>
+          <span>Notifications</span>
         </button>
 
         <button classname='kafelek'>
-          <span>Home</span>
+          <span>Create</span>
         </button>
       </div>
     </div>
