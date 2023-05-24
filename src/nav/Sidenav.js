@@ -1,7 +1,9 @@
 import React from "react";
 import "./Sidenav.css";
+import { useDispatch, useSelector } from "react-redux";
 
 function Sidenav() {
+  const user = useSelector((state) => state.data.user.user);
   return (
     <div className='sidenav'>
       <img
