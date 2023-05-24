@@ -1,5 +1,5 @@
 import React from "react";
-import Sidenav from "./Sidenav.css";
+import "./Sidenav.css";
 
 function Sidenav() {
   return <div>Sidenav</div>;
