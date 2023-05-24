@@ -7,7 +7,10 @@ function Homepage() {
   return (
     <div className='wrapper'>
       <div className='nav'>
-        <div className='timeline'></div>
+        <Sidenav />
+        <div className='timeline'>
+          <Timeline />
+        </div>
       </div>
     </div>
   );
