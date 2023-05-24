@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import "./Sidenav.css";
 import { useDispatch, useSelector } from "react-redux";
 //import { signOut } from "firebase/auth";
@@ -7,6 +7,7 @@ import { useDispatch, useSelector } from "react-redux";
 
 function Sidenav() {
   const user = useSelector((state) => state.data.user.user);
+  const dispatch = useDispatch();
   return (
     <div className='sidenav'>
       <img
