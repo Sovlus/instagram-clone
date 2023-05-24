@@ -1,5 +1,6 @@
 import React from "react";
 import "./Homepage.css";
+import Sidenav from "./nav/Sidenav";
 
 function Homepage() {
   return (
