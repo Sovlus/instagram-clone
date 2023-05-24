@@ -1,9 +1,9 @@
 import React from "react";
 import "./Sidenav.css";
 import { useDispatch, useSelector } from "react-redux";
-import { signOut } from "firebase/auth";
-import { logoutUser } from "../features/userSlice";
-import { auth } from "../firebase";
+//import { signOut } from "firebase/auth";
+//import { logoutUser } from "../features/userSlice";
+//import { auth } from "../firebase";
 
 function Sidenav() {
   const user = useSelector((state) => state.data.user.user);
